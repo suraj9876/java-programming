@@ -1,0 +1,17 @@
+import java.util.*;
+public class odd_numbers_between_n_and_m_input{
+    public static void main(String[]args)
+    { Scanner sc=new Scanner(System.in);
+    System.out.println("enter the value of n:");
+    int n=sc.nextInt();
+    System.out.println("enter the value of m:");
+    int m=sc.nextInt();
+       
+        for (n=n;n<=m;n++);
+        {
+            if (n%3==0);
+
+        
+        }System.out.println(n);
+    }
+}
