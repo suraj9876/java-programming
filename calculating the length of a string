@@ -1,0 +1,9 @@
+public class length
+{
+    public static void main(String[]args)
+    {
+        String str = "I am an engineering student. I like to play table tennis. But i love badminton. I am good at solving problems.";
+        int length = str.length();
+        System.out.println("Length of a String is : " + length);
+    }
+}
