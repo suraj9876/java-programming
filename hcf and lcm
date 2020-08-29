@@ -1,0 +1,26 @@
+import java.util.*;
+public class hcf_lcm_input{
+    public static void main(String[]args)
+    {Scanner sc=new Scanner(System.in);
+    System.out.println("enter the value of m:");
+    int m=sc.nextInt();
+    System.out.println("enter the value of n");
+        int n=sc.nextInt();
+        int temp,temp1,temp2,hcf,lcm;
+        temp1 = m;
+      temp2 = n;
+
+      while(temp2 != 0){
+         temp = temp2;
+         temp2 = temp1%temp2;
+         temp1 = temp;
+      }
+
+      hcf = temp1;
+      lcm = (m*n)/hcf;
+
+      System.out.println("HCF of input numbers: "+hcf);
+      System.out.println("LCM of input numbers: "+lcm);
+   }
+}
+    
