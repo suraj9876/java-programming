@@ -1,0 +1,58 @@
+import java.util.*;
+public class mini_calculator
+{
+    public static int addition(){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter the numbers");
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        return(a+b);
+    }
+    public static int substraction(){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter the numbers");
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        return(a+b);
+    }
+    public static int multiplication(){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter the numbers");
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        return(a*b);
+    }
+    public static int division(){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter the numbers");
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        return(a/b);
+    }
+    public static void main(String[]args){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter your response:\n1.addition\n2.substraction\n3.multiplication\n4.division");
+        int x=sc.nextInt();
+        if(x==1){
+            int a=addition();
+            System.out.println(a);
+        }
+        else if(x==2){
+            int s=substraction();
+            System.out.println(s);
+        }
+        else if(x==3){
+            int m=multiplication();
+            System.out.println(m);
+
+        }
+        else if(x==4){
+            int d=division();
+            System.out.println(d);
+
+        }
+        else
+        System.out.println("invalid option");
+    }
+
+}
