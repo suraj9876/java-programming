@@ -1,0 +1,17 @@
+import java.util.*;
+public class odd_numbers_input{
+    public static void main(String[]args)
+
+    {Scanner sc=new Scanner(System.in);
+    System.out.println("enter the value of n:");
+    int n=sc.nextInt();
+    int i;
+    for(i = 1; i <= n; i++)
+		{
+			if(i % 2 != 0)
+			{
+				System.out.print(i +"\t"); 
+			}
+		}
+    }
+}
