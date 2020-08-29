@@ -1,0 +1,13 @@
+public class word_count
+{
+    public static void main(String[]args)
+    {
+        String str = "I am an engineering student. I like to play table tennis. But i love badminton. I am good at solving problems.";
+        String arr[]=str.split(" ");
+        for(String w:arr)
+        {
+            System.out.println(w);
+            
+        }System.out.println("number of words ="+arr.length);
+    }
+}
