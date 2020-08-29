@@ -1,0 +1,14 @@
+import java.util.*;
+public class even_numbers_input{
+    public static void main(String[]args)
+    {    Scanner sc=new Scanner(System.in);
+    System.out.println("enter the value of m:");
+    int m=sc.nextInt();
+    System.out.println("enter the value of i");
+        int i=sc.nextInt();
+        for(i =i; i >= m; i=i-2)
+		{
+			System.out.print(i +"\t");
+        }
+    }
+}
